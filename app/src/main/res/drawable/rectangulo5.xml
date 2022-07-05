@@ -13,9 +13,9 @@
     <!--        android:width="12dp" android:dashGap="5dp"-->
     <!--        android:dashWidth="1dp"/>-->
     <gradient
-        android:startColor="#43A047"
-        android:centerColor="@color/morado"
-        android:endColor="#1E88E5"
+        android:startColor="#00897B"
+        android:centerColor="#FDD835"
+        android:endColor="#D8105E"
         android:type="linear"
         android:gradientRadius="1000"
         android:angle="45"/>
