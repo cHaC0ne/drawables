@@ -13,12 +13,12 @@
     <!--        android:width="12dp" android:dashGap="5dp"-->
     <!--        android:dashWidth="1dp"/>-->
     <gradient
-        android:startColor="#00897B"
+        android:startColor="#F1430C"
         android:centerColor="#FDD835"
-        android:endColor="#D8105E"
-        android:type="sweep"
+        android:endColor="#1B1A19"
+        android:type="radial"
         android:gradientRadius="190"
         android:angle="45"/>
-<!--       type      sweep radia linear -->
+<!--       type      sweep radial linear -->
 
 </shape>
