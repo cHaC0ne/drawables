@@ -16,8 +16,9 @@
         android:startColor="#00897B"
         android:centerColor="#FDD835"
         android:endColor="#D8105E"
-        android:type="linear"
-        android:gradientRadius="1000"
+        android:type="sweep"
+        android:gradientRadius="190"
         android:angle="45"/>
+<!--       type      sweep radia linear -->
 
 </shape>
