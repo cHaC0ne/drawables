@@ -17,9 +17,11 @@ class SecondActivity : AppCompatActivity() {
 //        b.bVolver.setOnClickListener {
 //            onBackPressed()
 //        }
-        b.bBoton.setOnClickListener {
-            val secondIntent = Intent(this,ThirdActivity::class.java)
-            startActivity(secondIntent)
-        }
+//        b.bBoton.setOnClickListener {
+//            val secondIntent = Intent(this,ThirdActivity::class.java)
+//            startActivity(secondIntent)
+//        }
+//    }
+//}
     }
 }

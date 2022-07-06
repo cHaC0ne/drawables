@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_log"
+    app:startDestination="@id/fristFrag">
+
+    <fragment
+        android:id="@+id/fristFrag"
+        android:name="com.example.drawable2.Frags.FristFrag"
+        android:label="fragment_frist"
+        tools:layout="@layout/fragment_frist" >
+        <action
+            android:id="@+id/action_fristFrag_to_secondFrag"
+            app:destination="@id/secondFrag" />
+        <action
+            android:id="@+id/action_fristFrag_to_thirdFrag"
+            app:destination="@id/thirdFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFrag"
+        android:name="com.example.drawable2.Frags.SecondFrag"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFrag_to_fristFrag"
+            app:destination="@id/fristFrag" />
+        <action
+            android:id="@+id/action_secondFrag_to_thirdFrag"
+            app:destination="@id/thirdFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFrag"
+        android:name="com.example.drawable2.Frags.ThirdFrag"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFrag_to_secondFrag"
+            app:destination="@id/secondFrag" />
+        <action
+            android:id="@+id/action_thirdFrag_to_fristFrag"
+            app:destination="@id/fristFrag" />
+    </fragment>
+</navigation>
