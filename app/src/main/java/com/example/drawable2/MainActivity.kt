@@ -24,12 +24,12 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.bProfile -> {
-                    findNavController(R.id.fragmentContainerView2)
+                    Navigation.findNavController(b.fragmentContainerView2  )
                         .navigate(R.id.secondFrag)
                     true
                 }
                 R.id.bSetting -> {
-                    b.fragmentContainerView2.findNavController()
+                    Navigation.findNavController(b.fragmentContainerView2  )
                         .navigate(R.id.thirdFrag)
                     true
                 }
